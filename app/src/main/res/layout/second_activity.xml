@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fifa3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/yourWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:gravity="center"
+            android:padding="10dp"
+            android:shadowColor="#FBF7F7"
+            android:text="¡Bienvenido Mr Daniel!"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/adress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#BF009688"
+            android:padding="10dp"
+            android:text='Le llegará en los próximos días el Pase Vip Dorado al email "daniel.ramper18@gmail.com"'
+            android:textColor="#FBF7F7"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/secondTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/second"
+            android:gravity="start"
+            android:padding="10dp"
+            android:text="¡Has entrado en el Olimpo de los Dioses!. Aprovecha esta oportunidad y sobre todo disfruta jugando."
+            android:textColor="#FDFAFA"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/congratulation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#BEEF6630"
+            android:padding="10dp"
+            android:text="Enhorabuena tu esfuerzo merece la pena. Eres el sensei del FIFA. "
+            android:textColor="#F6F0F0"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</ScrollView>
